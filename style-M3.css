@@ -1,0 +1,70 @@
+@font-face {
+	font-family: OpenSans-Italic;
+	src: url("font/OpenSans-Italic.ttf");
+}
+@font-face {
+	font-family: Alegreya-Bold;
+	src: url("font/Alegreya-Bold.ttf");
+}
+.wrapper {
+	background-color: rgb(243, 242, 236);
+}
+.blocks1 {
+	width: 100vw;
+	text-align: center;
+	padding: 10px 0px;
+}
+.name {
+	margin: 20px 0px 50px;
+	/*padding: 0px 40px 20px;*/
+	/*width: 80vw;*/
+	text-align: center;
+}
+.bn {
+	/*раздвинула ссылки, задала жирный шрифт, цвет шрифта*/
+	font-family: Alegreya-Bold;
+	color: rgb(11, 83, 83);
+	padding: 0px 10px;
+}
+a:hover {
+	/*подсветка фона при наведении курсора на ссылку*/
+	background: rgb(163, 238, 188);
+}
+.developer {
+	display: flex;
+}
+.developer__column1 {
+	width: 300px;
+	align-self: flex-start;
+	margin: 20px 60px 0px;
+	flex-grow: 1;
+}
+.developer__column2 {
+	flex-grow: 1;
+}
+.contacts {
+	width: 200px;
+	margin: 50px 10px 10px;
+	padding: 0px 40px 20px;
+	border: thin solid rgb(14, 126, 126);
+	background-color: rgb(191, 252, 211);
+}
+.item {
+	font-family: OpenSans-Italic; /*задаём правило для текста*/
+	margin: 10px 10px 10px;
+	padding: 0px 30px 0px;
+	border: thin solid rgb(14, 126, 126);
+	background-color: rgb(191, 252, 211);
+}
+.title {
+	font-family: Alegreya-Bold;
+	font-size: 25px;
+}
+.footer {
+	background-color: rgb(243, 242, 236);
+	display: flex;
+	justify-content: center;
+}
+.year {
+	font-family: OpenSans-Italic;
+}
