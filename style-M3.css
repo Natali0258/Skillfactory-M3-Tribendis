@@ -7,12 +7,13 @@
 	src: url("font/Alegreya-Bold.ttf");
 }
 .wrapper {
+	border-bottom: 2px solid rgb(11, 83, 83);
 	background-color: rgb(243, 242, 236);
 }
 .blocks1 {
-	width: 100vw;
+	border-bottom: 2px solid rgb(14, 126, 126);
 	text-align: center;
-	padding: 10px 0px;
+	padding: 20px 0px;
 }
 .name {
 	margin: 20px 0px 50px;
@@ -20,7 +21,7 @@
 	/*width: 80vw;*/
 	text-align: center;
 }
-.bn {
+.button {
 	/*раздвинула ссылки, задала жирный шрифт, цвет шрифта*/
 	font-family: Alegreya-Bold;
 	color: rgb(11, 83, 83);
@@ -31,6 +32,7 @@ a:hover {
 	background: rgb(163, 238, 188);
 }
 .developer {
+	padding: 10px 0px;
 	display: flex;
 }
 .developer__column1 {
@@ -64,7 +66,12 @@ a:hover {
 	background-color: rgb(243, 242, 236);
 	display: flex;
 	justify-content: center;
+	padding: 20px 0px;
 }
 .year {
 	font-family: OpenSans-Italic;
+}
+.link {
+	font-family: OpenSans-Italic;
+	color: blue;
 }
